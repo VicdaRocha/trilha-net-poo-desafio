@@ -6,12 +6,10 @@ namespace DesafioPOO.Models
         protected string Modelo { get; set; }
         protected string IMEI { get; set; }
         protected int Memoria { get; set; }
-        // TODO: Implementar as propriedades faltantes de acordo com o diagrama
 
         public Smartphone(string numero)
         {
             Numero = numero;
-            // TODO: Passar os parâmetros do construtor para as propriedades
         }
 
         public void Ligar()
